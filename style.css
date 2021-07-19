@@ -116,13 +116,14 @@
 }
 
 .areaAbout{
-    width: 450px;
-    height: 400px;
+    width: 40vw;
+    height: auto;
     text-align: justify;
     display: flex;
     flex-direction: column;
     color: black;
     padding: 10px;
+    margin-bottom: 25px;
 }
 
 .titleSmall{
@@ -141,8 +142,24 @@
 }
 
 .frame{
-    width: 450px;
     height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.imgAbout{
+    width: 350px;
+    border-radius: 5px;
+}
+
+.img1{
+    margin-left: 50px;
+}
+
+.img2{
+    margin-top: -200px;
 }
 
 .btAbout{
@@ -192,7 +209,10 @@
 
 .quad{
     border: 1px solid gray;
-    width: 30vw;
+    background-color: #232323;
+    border-bottom: none;
+    border-left: none;
+    width: 20vw;
     height: 35vh;
 }
 
@@ -247,4 +267,20 @@
         font-size: .8rem;
     }
 
+    .about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .areaAbout{
+        margin-bottom: 10%;
+        width: 70vw;
+    }
+
+    .imgAbout{
+        width: 50vw;
+        border-radius: 5px;
+        margin: 0;
+    }
 }
