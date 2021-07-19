@@ -1,0 +1,250 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: titles;
+    src: url(./fonts/Ubuntu-Regular.ttf);
+}
+
+@font-face {
+    font-family: generalText;
+    src: url(./fonts/Righteous-Regular.ttf);
+}
+
+@font-face {
+    font-family: infoText;
+    src: url(./fonts/NotoSans-Regular.ttf);
+}
+
+#logo{
+    height: 100px ;
+}
+.navigation{
+    display: flex;
+    flex-direction: row;
+    height: auto;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px 0 25px;
+    font-family: titles;
+    font-style: italic;
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.menuOption{
+    list-style: none;
+    margin-right: 50px;
+    transition: background-color .5s, padding .8s;
+}
+
+.menuOption:hover{
+    background-color: #6896B1;
+    padding: 5px 20px 5px 20px;
+    border-radius: 5px 0 5px 0;
+    font-weight: bold;
+}
+
+.menuLinks{
+    text-decoration: none;
+    color: black;
+    font-size: 100%;
+}
+
+.header{
+    height: 700px;
+    background-image: url(./img/city.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: generalText;
+    text-shadow: 1px 3px 3px rgb(70, 70, 70);
+    color:black;
+}
+
+.bts{
+    display: flex;
+    flex-direction: row;
+    text-shadow: none;
+}
+
+.bt{
+    padding: 10px 25px;
+    margin: 20px;
+    border-radius: 25px;
+    font-weight: lighter;
+    border: 1px solid black;
+    transition: color .8s, border .2s;
+}
+
+.bt1{
+    background-color:#1AA8E1 ;
+    color: white;
+}
+
+.bt1:hover{
+    color: black;
+    border: 2px solid navy;
+}
+
+.bt2{
+    color: black;
+}
+
+.bt2:hover{
+    color: red;
+    border: 2px solid navy;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: auto;
+    width: 80%;
+    justify-content: space-evenly;
+    margin: 80px auto;
+}
+
+.areaAbout{
+    width: 450px;
+    height: 400px;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    padding: 10px;
+}
+
+.titleSmall{
+    font-family: generalText;
+    color: #1AA8E1;
+}
+
+.titleBig{
+    font-family: titles;
+    font-weight: bold;
+    text-shadow: 1px 2px 2px gray;
+}
+
+.info{
+    font-family: infoText;
+}
+
+.frame{
+    width: 450px;
+    height: 400px;
+}
+
+.btAbout{
+    background-color:#1AA8E1 ;
+    color: white;
+    width: 200px;
+    font-family: generalText;
+    text-align: center;
+    transition: color .8s, border .2s;
+}
+
+.btAbout:hover{
+    color: black;
+    border: 2px solid navy;
+}
+
+.main{
+    height: 800px;
+    background-color: #1F1F1F;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.mainTitle{
+    color: white;
+    font-family: infoText;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.mainInfo{
+    color: white;
+    font-family: infoText;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.services{
+    margin: 50px auto;
+    display: grid;
+    grid-template-areas: 'a1 a2 a3' 'a4 a5 a6';
+    gap: 25px;
+}
+
+.quad{
+    border: 1px solid gray;
+    width: 30vw;
+    height: 35vh;
+}
+
+
+
+
+@media screen and (max-width:780px) {
+    .navigation{
+        flex-direction: column;
+    }
+
+    #logo{
+        height:150px;
+    }
+
+    .menu{
+        padding: 25px;
+    }
+
+    .menuOption{
+        margin: 20px;
+    }
+
+    .bt2{
+        background-color:#1AA8E1 ;
+        color: white;
+    }
+    
+    .bt2:hover{
+        color: black;
+        border: 2px solid navy;
+    }
+}
+
+@media screen and (max-width:670px) {
+    .navigation{
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .menu{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .header{
+        height: 500px;
+    }
+
+    .bts{
+        text-align: center;
+        font-size: .8rem;
+    }
+
+}
