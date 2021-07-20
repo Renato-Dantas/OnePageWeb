@@ -233,9 +233,6 @@
     height: 250px;
 }
 
-
-
-
 @media screen and (max-width:780px) {
     .navigation{
         flex-direction: column;
