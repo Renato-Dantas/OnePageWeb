@@ -312,6 +312,47 @@
     font-size: 2em;
 }
 
+.boxForm{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    margin-top: 150px;
+    margin-left: -80px;
+    width: 400px;
+    height: auto;
+}
+
+.boxForm h2{
+    font-family: titles;
+    font-weight: lighter;
+    font-size: 30px;
+    margin: 20px;
+}
+
+.formArea{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 80%;
+    justify-content: center;
+    margin: 0 auto;
+}
+label{
+    margin-bottom: 10px;
+    font-family: infoText ;
+}
+
+.ipt{
+    border: none;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+}
+
+#msg{
+    border: 2px solid black;
+    height: 150px;
+    border-radius: 5px;
+}
 
 
 @media screen and (max-width:880px) {
@@ -347,6 +388,23 @@
     
     .contactForm{
         width: auto;
+    }
+
+    .contact{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .boxContact{
+        width: 90%;
+    }
+
+    .boxForm{
+        margin: 25px auto;
+        width: 90%;
+        text-align: center;
+        flex-direction: column;
     }
 }
 
