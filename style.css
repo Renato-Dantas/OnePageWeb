@@ -233,7 +233,88 @@
     height: 250px;
 }
 
-@media screen and (max-width:780px) {
+.quad:hover{
+    background-color: #0C71C3;
+}
+
+.tech{
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    margin-bottom: 50px;
+    gap: 20px;
+}
+
+.techTitle{
+    font-family: infoText;
+    width: 90%;
+    text-align: center;
+    margin-top: 25px;
+}
+
+.boxes{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    width: 90%;
+    justify-content: center;
+    gap: 50px;
+}
+
+.box{
+    width: 250px;
+    height: 250px;
+    border: 1px solid #0C71C3;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact{
+    background-color: #F6F6F6;
+    min-height: 500px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.boxContact{
+    height: 300px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(./img/contact.jpg);
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.contactText{
+    background-color:rgba(25, 167, 219, 0.9);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactText h2{
+    color: white;
+    font-family: titles;
+    font-weight: lighter;
+    font-size: 2em;
+}
+
+
+
+@media screen and (max-width:880px) {
     .navigation{
         flex-direction: column;
     }
@@ -258,6 +339,14 @@
     .bt2:hover{
         color: black;
         border: 2px solid navy;
+    }
+
+    .areaForm{
+        margin: 25px auto;
+    }
+    
+    .contactForm{
+        width: auto;
     }
 }
 
@@ -302,5 +391,6 @@
     .btAbout{
         margin: 20px auto;
     }
+
 
 }
