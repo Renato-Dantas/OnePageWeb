@@ -32,8 +32,10 @@
     font-family: titles;
     font-style: italic;
     font-weight: bold;
-    background-image: url(./icons/fundo.png);
+    background-image: url(./img/fundo.png);
     background-size: cover;
+    position: fixed;
+    width: 100%;
 }
 
 .menu{
@@ -234,10 +236,48 @@
     border-left: none;
     width: 250px;
     height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 150px;
+    background-repeat: no-repeat;
+    background-position: center;  
 }
 
 .quad:hover{
     background-color: #0C71C3;
+    background-image: none;
+}
+
+.q1{
+    background-image: url(./icons/eng.png);
+}
+.quad h3{
+    opacity: 0;
+}
+
+.q2{
+    background-image: url(./icons/auto.png);
+}
+
+.q3{
+    background-image: url(./icons/data.png);
+}
+
+.q4{
+    background-image: url(./icons/cloud.png);
+}
+
+.q5{
+    background-image: url(./icons/mobile.png);
+}
+
+.q6{
+    background-image: url(./icons/machine.png);
+}
+
+.qImg{
+    width: 80px;
 }
 
 .tech{
@@ -277,6 +317,19 @@
     border-radius: 15px;
     display: flex;
     flex-direction: column;
+    background-size: cover;
+}
+
+.b1{
+    background-image: url(./img/python.png);
+}
+
+.b2{
+    background-image: url(./img/web.png);
+}
+
+.b3{
+    background-image: url(./img/backend.png);
 }
 
 .contact{
@@ -426,6 +479,7 @@ label{
 @media screen and (max-width:880px) {
     .navigation{
         flex-direction: column;
+        position: static;
     }
 
     #logo{

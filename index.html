@@ -11,15 +11,15 @@
     <nav class = 'navigation'>
         <img src='./img/logo.png' alt="FOTO" id = 'logo'>
         <div class = 'menu'>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>Home</li></a>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>Projects</li></a>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>About Us</li></a>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>Contact</li></a>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>News</li></a>
-            <a href="#home" class = 'menuLinks'><li class = 'menuOption'>Carrers</li></a>
+            <a href="#head" class = 'menuLinks'><li class = 'menuOption'>Home</li></a>
+            <a href="https://github.com/Renato-Dantas" target="_blank" class = 'menuLinks'><li class = 'menuOption'>Projects</li></a>
+            <a href="#aboutUs" class = 'menuLinks'><li class = 'menuOption'>About Us</li></a>
+            <a href="#contact" class = 'menuLinks'><li class = 'menuOption'>Contact</li></a>
+            <a href="#core" class = 'menuLinks'><li class = 'menuOption'>Core</li></a>
+            <a href="#links" class = 'menuLinks'><li class = 'menuOption'>Links</li></a>
         </div>
     </nav>
-    <header class="header">
+    <header class="header" id = 'head'>
         <h2>AROUND THE WORLD</h2>
         <h1>IMPROVING EVERYTHING</h1>
         <div class="bts">
@@ -27,7 +27,7 @@
             <h3 class = 'bt bt2'>Learn More</h3>
         </div>
     </header>
-    <section class="about">
+    <section class="about" id = 'aboutUs'>
         <div class="areaAbout">
             <h4 class = 'titleSmall'>About Us</h4>
             <h2 class = 'titleBig'>BUILDING A NEW REALITY</h2><br>
@@ -46,7 +46,7 @@
         </div>
         <div class="services">
             <div class = 'sec'>
-                <div class="quad q1"></div>
+                <div class="quad q1" onmouseover="showText()"><h3>TESTE</h3></div>
                 <div class="quad q2"></div>
                 <div class="quad q3"></div>
             </div>
@@ -58,18 +58,18 @@
         </div>
 
     </main>
-    <section class="tech">
+    <section class="tech" id = 'core'>
         <div class="techTitle">
             <h2>CORE TECHNOLOGIES</h2>
             <p>Our core technologies where created above years of expertise and a huge capacity engineering team, <br> with different background in the most diversity areas</p>
         </div>
         <div class = 'boxes'>
-            <div class="box"></div>
-            <div class="box"></div>
-            <div class="box"></div>
+            <div class="box b1"></div>
+            <div class="box b2"></div>
+            <div class="box b3"></div>
         </div>
     </section>
-    <section class="contact">
+    <section class="contact" id = 'contact'>
         <div class="boxContact">
             <div class = 'contactText'><h2> <strong>CONTACT</strong> US</h2></div>
         </div>
@@ -103,7 +103,7 @@
                 <input type="email" name="fieldEmail" id="fieldEmail" placeholder="renatodantas@outlook.com.br">
                 <button class = 'btnSend'>SEND</button><br>
                 <h2 class = 'footTitle'>QUICK LINKS</h2><br>
-                <div class="icons">
+                <div class="icons" id = 'links'>
                     <a href="https://www.instagram.com/" target="_blank"><img src="./icons/insta.png" class = 'ico'></a>
                     <a href="https://www.linkedin.com/in/dantasrenato/" target="_blank"><img src="./icons/linkedin.png" class="ico"></a>
                     <a href="https://github.com/Renato-Dantas" target="_blank"><img src="./icons/git.png" class="ico"></a>
@@ -116,6 +116,7 @@
 
 
     </footer>
+    <script src="script.js"></script>
 
 </body>
 </html>
