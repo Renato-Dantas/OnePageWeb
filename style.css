@@ -31,6 +31,9 @@
     padding: 0 25px 0 25px;
     font-family: titles;
     font-style: italic;
+    font-weight: bold;
+    background-image: url(./icons/fundo.png);
+    background-size: cover;
 }
 
 .menu{
@@ -45,7 +48,7 @@
 }
 
 .menuOption:hover{
-    background-color: #6896B1;
+    background-color: goldenrod;
     padding: 5px 20px 5px 20px;
     border-radius: 5px 0 5px 0;
     font-weight: bold;
@@ -354,6 +357,71 @@ label{
     border-radius: 5px;
 }
 
+.btnSend{
+    background-color:#1AA8E1 ;
+    color: white;
+    width: 100px;
+    height: 50px;
+    font-family: generalText;
+    align-self: flex-end;
+    border-radius: 25px;
+    transition: color .8s, border .2s;
+    margin: 20px 0 20px 0;
+}
+
+.btnSend:hover{
+    color: black;
+    border: 2px solid navy;
+}
+
+#footer{
+    height: auto;
+    background-color: #1F1F1F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.svg{
+    width: 100%;
+    height: auto;
+}
+
+.container{
+    height: auto;
+    width: 80%;
+    margin-bottom: 200px;
+}
+
+.footTitle{
+    color: white;
+    font-size: 20px;
+    font-family: infoText;
+    margin-left: 25px;
+    margin-bottom: 25px;
+}
+
+#fieldEmail{
+    height: 50px;
+    width: 100%;
+    border-radius: 25px;
+    padding-left: 20px;
+}
+
+.btnSend{
+    margin-left: calc(100% - 100px);
+}
+
+.icons{
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.ico{
+    width: 100px;
+}
 
 @media screen and (max-width:880px) {
     .navigation{
@@ -450,5 +518,13 @@ label{
         margin: 20px auto;
     }
 
+    .icons{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .ico{
+        margin: 20px;
+    }
 
 }
