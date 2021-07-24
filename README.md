@@ -1,5 +1,7 @@
 # One Page Project
 
+<img src = './gifs/full.gif' width = '500px'>
+
 ## Description:
 
 <p>This project was create to pratice CSS and HTML skills learned on the course "Programador BR"</p>
