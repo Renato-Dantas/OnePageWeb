@@ -27,6 +27,7 @@
 
 ### Description: 
 <p>This section is fixed on the application top border and consist of a menu with 6 buttons: </p><br>
+
 + ***Home***: take the viewport to the beginning
 + ***Projects***: Take the viewer to my GitHub page (could be another page with projects done by the company)
 + ***About US***: Take the viewer to the company description and the services provided
