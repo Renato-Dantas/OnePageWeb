@@ -4,7 +4,7 @@
 
 ## Description:
 
-<p>This project was create to pratice CSS and HTML skills learned on the course "Programador BR"</p>
+<p>This project was created to practice CSS and HTML skills learned on the course "Programador BR"</p>
 
 ### Technologies:
 
@@ -17,7 +17,7 @@
 + Transitions
 + Personalized Fonts
 + Media Queries
-+ Responsivity layout 
++ Responsive layout 
 
 <img src='./gifs/resp.gif' width = '500px'>
 
